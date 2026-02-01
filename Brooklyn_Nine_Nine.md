@@ -8,5 +8,5 @@ sudo openvpn <tryhackme.ovpn>
 **Step 2: Nmap** \
 I run a scan with nmap to discover open ports and their associated services. 
 ```
-nmap -sC -sV -p- <ip_address>
+nmap -sC -sV <ip_address>
 ```
