@@ -10,3 +10,4 @@ I run a scan with nmap to discover open ports and their associated services.
 ```
 nmap -sC -sV <ip_address>
 ```
+![Nmap Results](https://github.com/Vexenzaliac/ctf-writeups/blob/main/images/Screenshot%20(1).png)
