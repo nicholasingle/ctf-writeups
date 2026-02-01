@@ -54,7 +54,7 @@ ls -lah
 cat user.txt
 ```
 ![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(13).png) \
-User Flag: **ee11cbb19052e40b07aac0ca060c23ee**
+Got the first flag!
 
 **Step 7: Privilege Escalation** \
 Now that we have the user flag, we need to find a method to escalate our privileges to access the root flag. Lets start by running sudo -l to see if Jake is capable of running any commands with sudo. 
@@ -88,7 +88,7 @@ ls -lah
 cat root.txt
 ```
 ![screenshot](https://github.com/nicholasingle/ctf-writeups/blob/main/images/Screenshot%20(14).png) \
-Root Flag: 63a9f0ea7bb98050796b649e85481845
+Got the root flag!
 
 ## Conclusion
 This CTF is an excellent introduction into the world of Hacking, combining FTP, SSH brute-forcing, and Privilege Escalation via the less command. \ 
